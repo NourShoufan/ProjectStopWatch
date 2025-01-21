@@ -1,0 +1,64 @@
+*{
+  padding: 0px;
+  margin: 0px;  
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+}
+.ulC {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+#hours{
+  font-size: 40px;
+}
+#Minutes{
+  font-size: 40px;
+}
+#Seconds{
+  font-size: 40px;
+}
+.not{
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.stopWhatch{
+
+   display: flex; 
+   flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  background-color: hwb(0 0% 100% / 0.151);
+  width: 500px;
+height: 200px;
+}
+button{
+  width: 95px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 20px;
+
+  text-align: center;
+border: none;
+color: white;
+font-size: 15px;
+}
+.start{
+  background-color: hwb(0 4% 5% / 0.829);
+}
+.stop{
+background-color: black;
+}
+.res{
+  background-color: #314755;
+}
